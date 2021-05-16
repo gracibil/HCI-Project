@@ -1,0 +1,123 @@
+
+body {
+  background-color: lightgreen;
+}
+.buttons {
+  position: absolute;
+}
+
+.button {
+  border: none;
+  padding: 13px 27px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.button1 {
+  background-image:url(Club-sandwich.jpg);
+  background-size: 300px; 
+  color: black; 
+  border: 1px solid black;
+  position: absolute;
+  width: 400px;
+  height: 65px;
+  left: 480px;
+  }
+
+.button2 {
+  background-color: greenyellow; 
+  color: black; 
+  border: 1px solid black;;
+  position: absolute;
+  width: 400px;
+  height: 65px;
+  top: 88px;
+  left: 480px;
+  }
+
+.button3 {
+  background-color: greenyellow; 
+  color: black; 
+  border: 1px solid black;;
+  position: absolute;
+  width: 190px;
+  height: 230px;
+  top: 168px;
+  left: 480px;
+  
+  }
+
+.button4 {
+  background-color: greenyellow; 
+  color: black; 
+  border: 1px solid black;;
+  position: absolute;
+  width: 191px;
+  height: 230px;
+  top: 168px;
+  left: 689px;
+  }
+
+.button5 {
+  background-color: greenyellow; 
+  color: black; 
+  border: 1px solid black;;
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  left: 480px;
+  top: 410px;
+
+  }
+.button6 {
+  background-color: greenyellow; 
+  color: black;   
+  border: 1px solid black;;
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  left: 490px;
+  top: 530px;
+
+  }
+
+
+  
+.button1:hover {
+  background-color: greenyellow;
+  color: white;
+  font-size: 30px;
+  }
+
+.button2:hover {
+  background-color: greenyellow;
+  color: white;
+  font-size: 30px;
+
+  }
+
+.button3:hover {
+  background-color: greenyellow;
+  color: white;
+  font-size: 25px;
+  }
+
+.button4:hover {
+  background-color: greenyellow;
+  color: white;
+  font-size: 25px;
+  }
+.button5:hover {
+  background-color: greenyellow;
+  color: white;
+  font-size: 30px;
+  }
+.button6:hover {
+    background-color: greenyellow;
+    color: white;
+    font-size: 30px;
+    }
