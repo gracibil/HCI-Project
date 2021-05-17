@@ -26,3 +26,10 @@ button {
 button:hover {
   border: 3px solid black;
 }
+#btnHousing {
+  background-color: rgba(0, 255, 42, 0.39);
+}
+
+#btnHousing.toggled {
+  background-color: rgba(209, 1, 1, 0.555);
+}
