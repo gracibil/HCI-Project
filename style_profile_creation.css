@@ -1,0 +1,28 @@
+body {
+  background-color: lightgreen;
+}
+
+
+header {
+  text-align: center;
+  font-size: 60px;
+  margin: 25px;
+}
+
+button {
+  border: none;
+  padding: 13px 27px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid black;
+  width: 163px;
+  height: 80px;
+}
+
+button:hover {
+  border: 3px solid black;
+}
