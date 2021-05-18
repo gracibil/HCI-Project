@@ -6,3 +6,43 @@ header{
     text-align: center;
     font-size: 60px;
 }
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  position: absolute;
+  left: 36%;
+  right: 36%;
+  width: 28%;
+}
+
+h3 {
+  
+}
+
+fieldset {
+  background-color: greenyellow; 
+  color: black;
+  border: 1px solid black;;
+  position: relative;
+  height: 400px;
+  
+}
+
+button {
+  background-color: greenyellow; 
+  color: black;
+  border: 1px solid black;;
+  position: relative;
+  height: 70px;
+  width: 160px;
+  font-size: 14px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  font-size: 16px;
+}
