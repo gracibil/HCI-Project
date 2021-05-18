@@ -6,3 +6,33 @@ header{
     text-align: center;
     font-size: 60px;
 }
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+button {
+  background-color: greenyellow;
+  border: 1px solid black;
+  padding: 13px 27px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  width: 150px;
+  height: 90px;
+  
+}
+
+button:hover {
+  background-color: greenyellow;
+  font-size: 22px;
+}
