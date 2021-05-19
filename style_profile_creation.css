@@ -9,7 +9,7 @@ header {
   margin: 25px;
 }
 
-button {
+button{
   border: none;
   padding: 13px 27px;
   text-align: center;
@@ -18,18 +18,11 @@ button {
   transition-duration: 0.4s;
   cursor: pointer;
   position: relative;
-  border: 1px solid black;
+  border: 1px solid rgba(255, 255, 255, 0.541);
   width: 163px;
   height: 80px;
 }
 
-button:hover {
-  border: 3px solid black;
-}
-#btnHousing {
-  background-color: rgba(0, 255, 42, 0.39);
-}
-
-#btnHousing.toggled {
-  background-color: rgba(209, 1, 1, 0.555);
+.button:hover {
+  border: 3px solid rgba(0, 0, 0, 0.836);
 }

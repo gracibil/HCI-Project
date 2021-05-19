@@ -6,20 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+           function buttonFunction(el) {
+           if (el.style.backgroundColor == 'red'){
+               el.style.backgroundColor = 'green';
+           }else{
+               el.style.backgroundColor = 'red'
+           }
+        }
+           </script>
 </head>
 <body>
-    <script>
-      
-        </script>
+    
     <header>
         Allergies
         </header>
 
     </div>
     <div class="btn-group">
-        <button>Nuts</button>
-        <button>Lactose</button>
-        <button>Eggs</button>
+    
       </div>
 
       <header>
@@ -28,9 +33,13 @@
 
     </div>
     <div class="btn-group">
-        <button>Vegeterian</button>
-        <button>Vegan</button>
-        <button>Pesceterian</button>
+        
+        <input type='button' class="buttonStyle" value="Vegeterian" onclick="buttonFunction(this)" />
+        <input type="button" value="Vegan" onclick="buttonFunction(this)" />
+        <input type="button" value="Pesceterian" onclick="buttonFunction(this)" />
+        <input type="button" value="French" onclick="buttonFunction(this)" />
+        <input type="button" value="French" onclick="buttonFunction(this)" />
+        <input type="button" value="French" onclick="buttonFunction(this)" />
       </div>
       <header>
        Preferences
@@ -38,23 +47,19 @@
 
     </div>
     <div class="btn-group">
-        <button>American</button>
-        <button>Asian</button>
-        <button>Cuban</button>
-        <button>French</button>
-        <button>Mexican</button>
-        <button>Barbeque</button>
-        <button>Chinese</button>
-        <button>Mediteranean</button>
-        <script src="profile_creation_page.js"></script>
-        <input type="button" id="btnHousing" value="Housing" onclick="btnColor('btnHousing','rgb(255,242,0)');" />
+        
+        <input type="button" value="American" onclick="buttonFunction(this)
+        <input type="button" value="Asian" onclick="buttonFunction(this)" />
+        <input type="button" value="Cuban" onclick="buttonFunction(this)" />
+        <input type="button" value="French" onclick="buttonFunction(this)" />
+
         
        
       </div>
     
       <div class="form">
         <form action="main_page.html">  
-            <button>Continue</button>            
+            <button>continue</button>        
         </form> 
         </div>
         
