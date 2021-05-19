@@ -10,3 +10,72 @@ h1 {
   text-align: center;
   
 }
+
+
+.buttons {
+  position: absolute;
+}
+
+.button {
+  border: none;
+  padding: 13px 27px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.button1 {
+  background-image:url(american.jpg);
+  background-size: 110%, 100%;
+  color: black; 
+  border: 1px solid black;
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  left: 480px;
+  
+  }
+
+.button2 {
+  background-image:url(chinese.jpg); 
+  background-size: 120%, 100%;
+  color: black; 
+  border: 1px solid black;;
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  left: 630px;
+  }
+
+.button3 {
+  background-image:url(Indian.jpg); 
+  background-size: 113%, 100%;
+  color: black; 
+  border: 1px solid black;;
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  left: 780px;
+}
+
+.button1:hover {
+  background-color: greenyellow;
+  color: white;
+  font-size: 25px;
+  }
+
+.button2:hover {
+  background-color: greenyellow;
+  color: white;
+  font-size: 25px;
+
+  }
+
+.button3:hover {
+  background-color: greenyellow;
+  color: white;
+  font-size: 25px;
+  }
