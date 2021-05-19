@@ -9,6 +9,10 @@ header {
   margin: 25px;
 }
 
+h1 {
+  text-align: center;
+}
+
 button{
   border: none;
   padding: 13px 27px;
