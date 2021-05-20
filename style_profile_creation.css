@@ -6,6 +6,7 @@ body {
 header {
   text-align: center;
   font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 25px;
 }
 
@@ -19,6 +20,7 @@ button{
   text-align: center;
   text-decoration: none;
   font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   transition-duration: 0.4s;
   cursor: pointer;
   position: relative;

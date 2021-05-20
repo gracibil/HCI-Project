@@ -6,12 +6,14 @@ body {
 h1{
     text-align: center;
     font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+
 
 .buttons {
     position: absolute;
   }
-
 
 button {
     border: none;
@@ -28,4 +30,14 @@ button {
     right: 34%;
     width: 32%;
     
+    
   }
+
+.button1 {
+  text-align: center;
+  height: 70px;
+  }
+
+.button1:hover {
+  font-size: 23px;
+}

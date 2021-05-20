@@ -5,6 +5,7 @@ body {
 header{
     text-align: center;
     font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -20,10 +21,12 @@ h2 {
 
 h3 {
   
+
 }
 
 fieldset {
   background-color: greenyellow; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: black;
   border: 1px solid black;;
   position: relative;
@@ -38,11 +41,12 @@ button {
   position: relative;
   height: 70px;
   width: 160px;
-  font-size: 14px;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   transition-duration: 0.4s;
   cursor: pointer;
 }
 
 button:hover {
-  font-size: 16px;
+  font-size: 17px;
 }

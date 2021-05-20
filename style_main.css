@@ -2,99 +2,90 @@ body {
   background-color: lightgreen;
 }
 
-.buttons {
-  position: absolute;
+h1 {
+  text-align: center;
 }
 
-.button {
+button {
   border: none;
-  padding: 13px 27px;
   text-align: center;
   text-decoration: none;
   font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   transition-duration: 0.4s;
   cursor: pointer;
+  color: black; 
+  border: 1px solid black;
   
 }
 
 .button1 {
   background-image:url(Granola.jpg);
   background-size: 103%, 100%;
-  color: black; 
-  border: 1px solid black;
-  position: absolute;
-  width: 150px;
+  font-weight: 600;
+  position: relative;
   height: 250px;
-  left: 450px;
+  width: 150px;
   
   }
 
 .button2 {
   background-image:url(Club-sandwich.jpg); 
   background-size: 110%, 100%;
-  color: black; 
-  border: 1px solid black;;
-  position: absolute;
-  width: 150px;
+  position: relative;
+  font-weight: 600;
   height: 250px;
-  left: 600px;
-  }
+  width: 150px;
+  
+  } 
 
 .button3 {
   background-image:url(Pasta-funghi.jpg); 
   background-size: 113%, 100%;
-  color: black; 
-  border: 1px solid black;;
-  position: absolute;
+  position: relative;
+  font-weight: 600;
   width: 150px;
   height: 250px;
-  left: 750px;
-}
+  
+  }
 
 .button4 { 
   background-color: greenyellow; 
   color: black; 
-  border: 1px solid black;;
-  position: absolute;
-  width: 216px;
-  height: 230px;
-  top: 285px;
-  left: 450px;
+  border: 1px solid black;
+  position: relative;
+  width: 220px;
+  height: 250px;
+  right: 0.7%;
   
   }
 
 .button5 {
   background-color: greenyellow; 
   color: black;
-  border: 1px solid black;;
-  position: absolute;
-  width: 216px;
-  height: 230px;
-  top: 285px;
-  left: 683px;
-  }
+  border: 1px solid black;
+  position: relative;
+  width: 220px;
+  height: 250px;
+  left: 0.7%;
+}
 
 .button6 {
   background-color: greenyellow; 
-  color: black; 
+  color: black;
   border: 1px solid black;;
-  position: absolute;
-  width: 450px;
+  position: relative;
+  width: 467px;
   height: 100px;
-  left: 450px;
-  top: 528px;
 
-  }
-
+}
 .button7 {
   background-color: greenyellow; 
   color: black;
   border: 1px solid black;;
-  position: absolute;
-  width: 450px;
+  position: relative;
+  width: 467px;
   height: 100px;
-  left: 450px;
-  top: 640px;
   
   }
   
